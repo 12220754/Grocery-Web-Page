@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding: 0;
+    background-color:#fff;
+}
+
+.wrapper{
+    width: 1100;
+    margin: auto;
+}
+
+header{
+    background-color:red;
+    height: 100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.nav-area{
+    float: right;
+    list-style: none;
+    background-color: black;
+    margin-top: 17px;
+}
+
+.nav-area li{
+    display: inline-block;
+}
+
+.nav-area li a{
+    color:black;
+    background-color:#fff;
+    text-decoration: none;
+    padding: 1px  30px;
+    font-family:poppins;
+    font-size: 35px;
+}
+.nav-area li a:hover{
+    background:powderblue;
+    color:blue;
+}
+
+.logo img{
+    width:150px;
+    float:left;
+    height: auto;
+}
+
+.welcome-text{
+    position:absolute;
+    width:600px;
+    height: 300px;
+    margin: 5% 30%;
+    text-align: center;
+}
+.welcome-text h1{
+    text-align: center;
+    color:black;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.image{
+    padding: 0% 0%;
+
+
+}
+
+.si{
+    height: 100px;
+    width: 100px;
+}
+
+
+.str{
+    font-size: 25px;
+    padding: 3% 5%;
+    font-style: oblique;
+}
+
+.child1{
+    background-color: #fff;
+    width:50%;
+    float: left;
+}
+
+.child2{
+    background-color: #fff;
+    width: 50%;
+    float: right;
+}
+
+.butn{
+
+    padding:1% 40%;
+    font-size: 10px;
+}
+.styl{
+    color:red;
+    background-color: yellow;
+}
